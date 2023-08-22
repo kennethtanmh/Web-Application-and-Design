@@ -3,22 +3,15 @@
   <head>
     <title>Heading and List</title>
     <meta charset="UTF-8" />
-    <style>
-      /* Custom counter style starts from 'C' */
-      ol.custom-counter {
-        counter-reset: item-counter 2; /* 'C' corresponds to 2 in Unicode */
-      }
-
-      /* Style for the list items */
-      li.custom-counter-item::before {
-        content: counter(item-counter, upper-alpha) ". "; /* Display the counter as uppercase letter followed by a dot */
-        counter-increment: item-counter;
-      }
-    </style>
   </head>
   <body>
     <h1>My Favourite Colors</h1>
     <ol type="A">
+      <li>Blue</li>
+      <li>Teal</li>
+      <li>Red</li>
+    </ol>
+    <ol type="A" start="3">
       <li>Blue</li>
       <li>Teal</li>
       <li>Red</li>
@@ -28,7 +21,7 @@
       <li>Teal</li>
       <li>Red</li>
     </ol>
-    <ol type="i">
+    <ol type="i" start="6">
       <li>Blue</li>
       <li>Teal</li>
       <li>Red</li>
