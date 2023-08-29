@@ -1,0 +1,112 @@
+body {
+  color: #2e0000;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ebc68f;
+}
+
+.wrapper {
+  width: 80%;
+  min-width: 800px;
+  background-color: #e2d2b0;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 2px 2px #000000;
+}
+
+header {
+  background-color: #d2b28f;
+  background-image: url(Banner.PNG);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100px;
+}
+
+nav {
+  float: left;
+  width: auto;
+  height: 100%;
+  text-align: center;
+}
+nav ul {
+  list-style-type: none;
+}
+nav a {
+  text-decoration: none;
+  color: #7d5540;
+  font-weight: bolder;
+  font-size: large;
+}
+
+.content {
+  margin-left: 150px;
+  padding: 1px 20px 20px 20px;
+  background-color: #f6f4dd;
+}
+
+footer {
+  text-align: center;
+  background-color: #d2b28f;
+  padding: 20px;
+  font-size: 10px;
+}
+
+/* index styles */
+
+.content ul {
+  padding-left: 350px;
+}
+
+.content li {
+  list-style: none;
+  background-image: url(bulletpoint.jpg);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 20px;
+  padding: 5px 0px 0px 25px;
+}
+
+#Address {
+  padding-left: 350px;
+}
+
+#coffeehouseimage {
+  float: left;
+  padding-right: 20px;
+  margin-left: 20px;
+}
+
+/* Table styles */
+
+.table {
+  border-spacing: 2px;
+  width: 85%;
+}
+
+.table td {
+  padding: 8px 8px;
+}
+
+.table tr:nth-of-type(odd) {
+  background-color: #d2b28f;
+}
+
+.table td:first-child {
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Music styles */
+
+.music {
+  margin: 0 150px;
+}
+
+.music h3 {
+  text-align: center;
+  background-color: #d2b28f;
+
+}
+
+.music tr {
+  all
+}
