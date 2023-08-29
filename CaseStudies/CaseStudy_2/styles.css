@@ -80,6 +80,7 @@ footer {
 .table {
   border-spacing: 2px;
   width: 85%;
+  margin-left: 50px;
 }
 
 .table td {
@@ -98,15 +99,49 @@ footer {
 /* Music styles */
 
 .music {
-  margin: 0 150px;
+  margin-left: 150px;
+  padding-right: 150px;
 }
 
 .music h3 {
   text-align: center;
   background-color: #d2b28f;
-
 }
 
-.music tr {
-  all
+.music table {
+  border-spacing: 10px;
+}
+
+.music audio {
+  height: 10px;
+}
+
+.music td {
+  vertical-align: top;
+}
+
+#music1 {
+  padding-left: 10px;
+}
+#music2 {
+  padding-left: 10px;
+}
+
+/* Jobs styles */
+
+label {
+  float: left;
+  padding-left: 40px;
+}
+
+form label {
+  margin-left: 20px;
+  width: 120px;
+}
+
+#name {
+  width: 180px;
+}
+#email {
+  width: 180px;
 }

@@ -1,28 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <title>JavaJam Coffee House Menu</title>
+    <title>JavaJam Coffee House Jobs</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header>
-      <h1>JavaJam Coffee House</h1>
-    </header>
-    <nav>
-      <b>
-        <a href="index.html">Home</a> &nbsp; <a href="menu.html">Menu</a> &nbsp;
-        <a href="music.html">Music</a> &nbsp;
-        <a href="jobs.html">Jobs</a>
-      </b>
-    </nav>
-    <footer>
-      <small><i>Copyright &copy; 2014 JavaJam Coffee House</i></small>
-      <br />
-      <small
-        ><i>
-          <a href="mailto:TanMengHwee@Kenneth.com">TanMengHwee@Kenneth.com</a>
-        </i>
-      </small>
-    </footer>
+    <div class="wrapper">
+      <header></header>
+      <div id="nav">
+        <nav>
+          <ul>
+            <b>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="music.html">Music</a></li>
+              <li><a href="jobs.html">Jobs</a></li>
+            </b>
+          </ul>
+        </nav>
+      </div>
+      <div class="content">
+        <h1>Jobs at JavaJam</h1>
+        <p>
+          Want to work at JavaJam? Fill out the form below to start your
+          application. Required fields are marked with an asterisk *
+        </p>
+        <form action="show_get.php" method="get">
+          <label for="name"> *Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name here"
+            required
+          />
+          <br /><br />
+          <label for="email">*E-mail:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your Email ID here"
+            required
+          />
+          <br /><br />
+          <label for="startdate">Start Date:</label>
+          <input type="date" id="startdate" name="startdate" /> <br /><br />
+
+          <label for="experience">*Experience:</label>
+          <textarea
+            name="experience"
+            id="experience"
+            cols="21"
+            rows="5"
+          ></textarea>
+          <br /><br />
+          <input type="reset" value="Clear" /> <br /><br />
+          <input type="submit" value="Apply Here" /> <br /><br />
+        </form>
+      </div>
+      <footer>
+        <small><i>Copyright &copy; 2014 JavaJam Coffee House</i></small>
+        <br />
+        <a href="mailto:TanMengHwee@Kenneth.com">TanMengHwee@Kenneth.com</a>
+      </footer>
+    </div>
   </body>
 </html>
